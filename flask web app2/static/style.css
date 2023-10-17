@@ -1,0 +1,65 @@
+body {
+    font-family: Arial, sans-serif;
+   /* background-color: #f5f5f5;*/
+   color: black;
+   margin: 0;
+   /*display: flex;*/
+   justify-content: center;
+   padding: 40px;
+   align-items: center;
+   height: 100vh;
+   background: url('https://images.unsplash.com/photo-1545696648-86c761bc5410?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxMjA3fDB8MXxzZWFyY2h8Mnx8Ym9va3NoZWxmfHwwfHx8fDE2MzE2NTQ3NDI&ixlib=rb-1.2.1&q=80&w=1080') no-repeat center center fixed;
+   background-size: cover;
+}
+
+.container {
+  
+    max-width: 600px;
+    background-color: rgba(255, 255, 255, 0.85);
+    margin: 0 auto;
+    padding: 20px;
+   /*background-color: #ffffff;*/
+    border-radius: 5px;
+    /*box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);*/
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+
+#book-form {
+    margin-bottom: 20px;
+}
+
+input, button {
+    margin-bottom: 10px;
+}
+
+button {
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #4caf50;
+}
+
+.progress-bar {
+    height: 20px;
+    border-radius: 5px;
+}
+
+.completed-bar {
+    background-color: #4caf50;
+}
+
+.in-progress-bar {
+    background-color: #2196F3;
+}
+
+.favorite-bar {
+    background-color: #FFC107;
+}
